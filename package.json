@@ -1,0 +1,17 @@
+{
+  "name": "verify-emails",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "verify": "node/src/app.js",
+    "get-numbers": "node src/get-numbers.js",
+    "json-to-excel": "node src/json-to-excel.js"
+  },
+  "dependencies": {
+    "mailparser": "^3.6.4",
+    "tls": "^0.0.1",
+    "util": "^0.12.5",
+    "xlsx": "^0.18.5"
+  }
+}
